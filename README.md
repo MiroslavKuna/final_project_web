@@ -44,6 +44,9 @@ WebSocket is used for real-time communication between the server and clients. Us
 
 ## How to Run
 
-1. Install dependencies: `npm install`
-2. Start the server: `npm start`
-3. Open a web browser and navigate to `http://localhost:3000`
+1. Open cmd in the repository folder
+2. Innitialize npm: `npm init -y`
+3. Install dependencies: `npm install express`
+                         `npm install express socket.io`
+4. Start the server: `node app.js`
+5. Open a web browser and navigate to `http://localhost:3000`
